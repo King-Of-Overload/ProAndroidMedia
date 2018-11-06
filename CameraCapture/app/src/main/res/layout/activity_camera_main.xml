@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameraMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showBigPicClick"
+            android:text="显示大图像" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mediaStoreClick"
+            android:text="MediaStore" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mediaStoreFindClick"
+            android:text="检索图像" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cameraClick"
+            android:text="摄像头" />
+        <Button
+            android:onClick="timeSnapClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定时拍照"/>
+        <Button
+            android:onClick="choosePicClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择图片"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="rotateZoomClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图像合成"/>
+        <Button
+            android:onClick="drawImageClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手指绘图"/>
+        <Button
+            android:onClick="choosePicDrawClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="现有图绘画"/>
+    </LinearLayout>
+
+</LinearLayout>
