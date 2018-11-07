@@ -50,5 +50,17 @@ public class CameraMainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ChoosePicDrawActivity.class));
     }
 
+    public void CustomAudioClick(View v){
+        startActivity(new Intent(this, CustomAudioActivity.class));
+    }
+
+    public void AudioPlayerClick(View v){
+        startActivity(new Intent(this, AudioPlayerActivity.class));
+    }
+
+    public void AudioBrowserClick(View v){
+        startActivity(new Intent(this, AudioBrowserActivity.class));
+    }
+
 
 }

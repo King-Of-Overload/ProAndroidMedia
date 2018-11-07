@@ -28,7 +28,10 @@
         <activity android:name=".ChoosePicActivity" />
         <activity android:name=".RotateZoomActivity" />
         <activity android:name=".DrawImageActivity" />
-        <activity android:name=".ChoosePicDrawActivity"></activity>
+        <activity android:name=".ChoosePicDrawActivity" />
+        <activity android:name=".CustomAudioActivity" />
+        <activity android:name=".AudioPlayerActivity" />
+        <activity android:name=".AudioBrowserActivity"></activity>
     </application>
 
 </manifest>
