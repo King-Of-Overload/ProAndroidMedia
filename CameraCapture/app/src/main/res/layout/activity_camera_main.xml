@@ -93,4 +93,27 @@
             android:text="唱片集浏览"/>
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="AudioAsyncClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异步音频"/>
+        <Button
+        android:onClick="StreamAudioClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="流式音频"/>
+
+        <Button
+            android:onClick="AltAudioClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="捕獲與播放音頻"/>
+    </LinearLayout>
+
 </LinearLayout>

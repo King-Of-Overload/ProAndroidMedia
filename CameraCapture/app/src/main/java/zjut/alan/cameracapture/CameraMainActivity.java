@@ -62,5 +62,17 @@ public class CameraMainActivity extends AppCompatActivity {
         startActivity(new Intent(this, AudioBrowserActivity.class));
     }
 
+    public void AudioAsyncClick(View v){
+        startActivity(new Intent(this, AudioHTTPActivity.class));
+    }
+
+    public void StreamAudioClick(View v){
+        startActivity(new Intent(this, StreamAudioActivity.class));
+    }
+
+    public void AltAudioClick(View v){
+        startActivity(new Intent(this, AltAudioActivity.class));
+    }
+
 
 }
