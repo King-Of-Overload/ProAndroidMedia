@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -36,7 +36,11 @@
         <activity android:name=".AudioBrowserActivity" />
         <activity android:name=".AudioHTTPActivity" />
         <activity android:name=".StreamAudioActivity" />
-        <activity android:name=".AltAudioActivity"></activity>
+        <activity android:name=".AltAudioActivity" />
+        <activity android:name=".AudioSynthesisActivity" />
+        <activity android:name=".AudioProcessActivity" />
+        <activity android:name=".VideoCaptureActivity" />
+        <activity android:name=".CustomCaptureActivity"></activity>
     </application>
 
 </manifest>

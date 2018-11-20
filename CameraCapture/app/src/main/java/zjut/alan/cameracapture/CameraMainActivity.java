@@ -74,5 +74,21 @@ public class CameraMainActivity extends AppCompatActivity {
         startActivity(new Intent(this, AltAudioActivity.class));
     }
 
+    public void AudioSynthesisClick(View v){
+        startActivity(new Intent(this, AudioSynthesisActivity.class));
+    }
+
+    public void AudioProcessClick(View v){
+        startActivity(new Intent(this, AudioProcessActivity.class));
+    }
+
+    public void VideoCaptureClick(View v){
+        startActivity(new Intent(this, VideoCaptureActivity.class));
+    }
+
+    public void CustomVideoCaptureClick(View v){
+        startActivity(new Intent(this, CustomCaptureActivity.class));
+    }
+
 
 }

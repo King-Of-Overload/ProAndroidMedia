@@ -116,4 +116,36 @@
             android:text="捕獲與播放音頻"/>
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="AudioSynthesisClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放合成音"/>
+        <Button
+            android:onClick="AudioProcessClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音頻分析"/>
+        <Button
+            android:onClick="VideoCaptureClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="視頻捕獲"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="CustomVideoCaptureClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="視頻捕獲"/>
+    </LinearLayout>
 </LinearLayout>
